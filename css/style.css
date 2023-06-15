@@ -6,7 +6,7 @@
 
 .bannerBgImage {
     height: 100vh;
-    background: url("/images/bannerImage.jpg");
+    background: url("https://srikanth-kandi.github.io/portfolio-bootstrap/images/bannerImage.jpg");
     background-size: cover;
     position: relative;
 }
