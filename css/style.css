@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
 
-*{
+* {
     font-family: 'Hind', sans-serif;
+    scrollbar-width: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .bannerBgImage {
     height: 100vh;
     background: url("https://srikanth-kandi.github.io/portfolio-bootstrap/images/bannerImage.jpg");
     background-size: cover;
-    position: relative;
 }
 
 .bannerText {
@@ -37,16 +43,63 @@
     border: 2px solid #9acd32;
 }
 
+.passportPic {
+    width: 100%;
+    background-size: cover;
+}
+
 .BIcon {
     width: 100%;
     text-align: center;
     font-size: 40px;
 }
 
-.img-fluid:hover {
-    border: 2px solid #9acd32;
-}
-
 .card-img-top {
     height: 50vh;
+    background-size: cover;
+}
+
+.footer-reference {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 426px) {
+    .footer-reference a {
+        font-size: 24px;
+    }
+}
+
+.footer-reference a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.twitter {
+    color: #00ACEE;
+}
+
+.carousel-inner {
+    max-height: 650px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    outline: grey;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+#gradientName {
+    background: linear-gradient(45deg, red, yellow, violet);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }

@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio | Srikanth Kandi</title>
     <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <!--Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -15,225 +17,379 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
     <!--animate.style CDN-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    <!--https://michalsnik.github.io/aos/-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--https://michalsnik.github.io/aos/ -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  />
-  </head>
-  <body>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8626d862a5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
 
     <!--Navbar start-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand animate__animated animate__pulse animate__infinite	infinite" href="#">Srikanth Kandi</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand animate__animated animate__pulse animate__infinite	infinite"
+                href="index.html"><b>Srikanth
+                    Kandi</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-opacity-75" href="#home"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-opacity-75" href="#about"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-opacity-75" href="#skills"><b>Skills</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-opacity-75" href="#projects"><b>Projects</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-opacity-75" href="#contact"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
     <!--Navbar end-->
 
-    <!--Banner start-->
-      <section class="bannerBgImage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 bannerText">
-                    <h2 class="bannerTitle animate__animated animate__backInLeft">Hi there 👋</h2>
-                    <p class="bannerDesc">A Professional Web Developer</p>
+    <!--Home start-->
+    <div class="mb-3 mt-3" id="home"></div>
+    <div class="container pt-5" data-aos="zoom-out-right">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7013896408621608962/"
+                                target="_blank"><img src="./images/lakshyaprize.jpg" class="d-block w-100"
+                                    alt="Lakshya Prize"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7049333415732527104/"
+                                target="_blank"><img src="./images/jiointern.png" class="d-block w-100"
+                                    alt="Jio Internship"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/lovejntuk.jpg" class="d-block w-100" alt="Love JNTUK">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/collegebg.jpg" class="d-block w-100" alt="My College">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/schoolprize.jpeg" class="d-block w-100" alt="First class prize">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev text-dark" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
-      </section>
-    <!--Banner end-->
+    </div>
+    <!--Home end-->
 
     <!--About start-->
-      <section data-aos="fade-up" data-aos-duration="2000" id="about">
+    <div id="about" class="mb-5"></div>
+    <section data-aos="fade-up" data-aos-duration="2000" class="pt-5">
         <div class="container">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="text-center mb-3"><b>About Me</b></h1>
             <div class="row">
-                <div class="col-md-4" data-aos="zoom-in">
-                    <img src="./images/passportPicture.jpg" alt="passportPicture" class="card-img img-fluid">
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-lg-center align-items-center mb-3 mb-lg-5"
+                    data-aos="zoom-in">
+                    <img src="./images/passportPicture.jpg" alt="passportPicture" class="passportPic w-sm-75 w-md-100">
                 </div>
-                <div class="col-md-8 d-flex flex-column justify-content-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolore nostrum sint molestiae quam harum necessitatibus inventore asperiores magnam, eaque aliquam nemo rerum distinctio ea consequuntur corporis rem minus natus, facilis quibusdam obcaecati mollitia est odit. Sunt, obcaecati esse eveniet, sit officiis natus quis consectetur iste consequuntur delectus, deserunt beatae?</p>
+                <div class="col-12 col-md-8 d-flex flex-column justify-content-center align-items-center mb-3 mb-lg-5">
                     <div class="row">
                         <div class="col-md-6">
                             <ul>
-                                <li>Name: Srikanth Kandi</li>
-                                <li>Age: 20</li>
-                                <li>Occupation: CSE Undergraduate</li>
+                                <li>Name: <b>Srikanth Kandi</b></li>
+                                <li>DOB: <b>28-04-2003</b><i> (dd-mm-yyyy)</i></li>
+                                <li>Occupation: <b>B.Tech Computer Science @2024</b></li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li>Technologies Working on: MERN Stack</li>
-                                <li>Portfolio: <a href="#" target="_blank" class="text-decoration-none">Click Here for Portfolio</a></li>
+                                <li>Technologies Working on: <b>MERN Stack</b>, <b>Machine Learning</b>, <b>Artificial
+                                        Intelligence</b> and
+                                    <b>Data Science</b>
+                                </li>
+                                <li>Resume: <a
+                                        href="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Srikanth_2023-06-12-221427.pdf"
+                                        target="_blank" class="text-decoration-none">Click Here for Resume</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="row">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint omnis libero qui animi aliquid! Et dolorum iusto exercitationem nobis eligendi, porro, aliquid aliquam obcaecati mollitia molestiae voluptatem maiores illo, ea labore? Soluta tenetur molestias culpa incidunt molestiae, cupiditate provident, iure exercitationem animi explicabo eaque, numquam consequuntur quas totam repellendus dolor neque ex nulla iste. Ipsa veniam dolorum, quaerat corrupti commodi iste ipsam neque voluptate autem! Id accusantium maxime unde libero perferendis? Minus, exercitationem praesentium. Porro rem labore magni, natus molestiae consequatur corporis consectetur molestias quas quidem commodi soluta aliquid mollitia temporibus reiciendis eveniet officiis illo, quod quasi praesentium adipisci doloremque.</p>
+                        <h1 class="text-center"><b>Educational Details</b></h1>
+                        <div class="container">
+                            <div class="row d-flex flex-column justify-content-center">
+                                <div class="col-12 d-flex flex-row justify-content-center">
+                                    <div class="col-3 d-flex flex-row justify-content-center">
+                                        <b>Ex. Curricular</b>
+                                    </div>
+                                    <div class="col-1 d-flex flex-row justify-content-center"><b>:</b></div>
+                                    <div class="col-8 d-flex flex-column">
+                                        <p class="mb-0"><a href="https://www.ccbp.in/academy"
+                                                class="text-dark text-decoration-none" target="_blank"><b>NxtWave CCBP
+                                                    4.0 Academy - Genius</b></p></a>
+                                        <p><i>(October 2022 - October 2026)</i></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex flex-row justify-content-center">
+                                    <div class="col-3 d-flex flex-row justify-content-center">
+                                        <b>Graduation</b>
+                                    </div>
+                                    <div class="col-1 d-flex flex-row justify-content-center"><b>:</b></div>
+                                    <div class="col-8 d-flex flex-column">
+                                        <p class="mb-0"><a href="https://lbrce.ac.in"
+                                                class="text-dark text-decoration-none" target="_blank"><b>Lakireddy Bali
+                                                    Reddy
+                                                    College of Engineering
+                                                    (Autonomous)</b></p></a>
+                                        <p><i>(January 2021 - May 2024)</i></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex flex-row justify-content-center">
+                                    <div class="col-3 d-flex flex-row justify-content-center">
+                                        <b>Intermediate</b>
+                                    </div>
+                                    <div class="col-1 d-flex flex-row justify-content-center"><b>:</b></div>
+                                    <div class="col-8 d-flex flex-column">
+                                        <p class="mb-0"><a href="https://www.narayanagroup.com/"
+                                                class="text-dark text-decoration-none" target="_blank"><b>Narayana
+                                                    Junior College, Bhavanipuram</b></p></a>
+                                        <p><i>(June 2018 - May 2020)</i></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex flex-row justify-content-center">
+                                    <div class="col-3 d-flex flex-row justify-content-center">
+                                        <b>High School</b>
+                                    </div>
+                                    <div class="col-1 d-flex flex-row justify-content-center"><b>:</b></div>
+                                    <div class="col-8 d-flex flex-column">
+                                        <p class="mb-0"><a href="https://atkinsongollapudi.edu.in/"
+                                                class="text-dark text-decoration-none" target="_blank"><b>Atkinson High
+                                                    School, Gollapudi</b></p></a>
+                                        <p><i>(June 2006 - May 2013)</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
+    </section>
     <!--About end-->
 
-    <!--Services start-->
-      <section id="services" data-aos="zoom-out">
+    <!--Skills start-->
+    <div id="skills" class="mb-5"></div>
+    <section data-aos="zoom-out" class="pt-5">
         <div class="container">
-            <h1 class="text-center">Services</h1>
+            <h1 class="text-center mb-3"><b>Skills</b></h1>
             <div class="row">
-                <div class="col-md-4" data-aos="flip-up">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-up">
                     <div class="card w-100 mb-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed neque, est rerum ullam maxime alias qui esse rem vel excepturi quibusdam et. Eos nobis omnis iste, voluptate quidem beatae.</p>
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed
+                                neque, est
+                                rerum ullam maxime alias qui esse rem vel excepturi quibusdam et. Eos nobis omnis iste,
+                                voluptate quidem
+                                beatae.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="flip-up">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-up">
                     <div class="card w-100 mb-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis adipisci debitis distinctio recusandae, voluptatem ut quae illo expedita iusto eligendi tenetur? Assumenda eaque voluptatibus illo incidunt velit quisquam? Odio?</p>
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                                blanditiis adipisci
+                                debitis distinctio recusandae, voluptatem ut quae illo expedita iusto eligendi tenetur?
+                                Assumenda eaque
+                                voluptatibus illo incidunt velit quisquam? Odio?</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="flip-up">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-up">
                     <div class="card w-100 mb-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil porro, perferendis aperiam ipsam et enim quam aspernatur beatae iste atque totam fugit tenetur facilis sapiente ex, dolores id dolorum!</p>
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil
+                                porro,
+                                perferendis aperiam ipsam et enim quam aspernatur beatae iste atque totam fugit tenetur
+                                facilis sapiente
+                                ex, dolores id dolorum!</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4" data-aos="flip-up">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-up">
                     <div class="card w-100 mb-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed neque, est rerum ullam maxime alias qui esse rem vel excepturi quibusdam et. Eos nobis omnis iste, voluptate quidem beatae.</p>
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed
+                                neque, est
+                                rerum ullam maxime alias qui esse rem vel excepturi quibusdam et. Eos nobis omnis iste,
+                                voluptate quidem
+                                beatae.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="flip-up">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-up">
                     <div class="card w-100 mb-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, blanditiis adipisci debitis distinctio recusandae, voluptatem ut quae illo expedita iusto eligendi tenetur? Assumenda eaque voluptatibus illo incidunt velit quisquam? Odio?</p>
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                                blanditiis adipisci
+                                debitis distinctio recusandae, voluptatem ut quae illo expedita iusto eligendi tenetur?
+                                Assumenda eaque
+                                voluptatibus illo incidunt velit quisquam? Odio?</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" data-aos="flip-up">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="flip-up">
                     <div class="card w-100 mb-3">
                         <div class="card-body">
-                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil porro, perferendis aperiam ipsam et enim quam aspernatur beatae iste atque totam fugit tenetur facilis sapiente ex, dolores id dolorum!</p>
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i> Web Developer
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nihil
+                                porro,
+                                perferendis aperiam ipsam et enim quam aspernatur beatae iste atque totam fugit tenetur
+                                facilis sapiente
+                                ex, dolores id dolorum!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
-    <!--Services end-->
+    </section>
+    <!--Skills end-->
 
-    <!--Portfolio start-->
-      <section id="portfolio" data-aos="zoom-out-up">
+    <!--Projects start-->
+    <div id="projects" class="mb-5"></div>
+    <section data-aos="zoom-out-up" class="pt-5">
         <div class="container">
-            <h1 class="text-center">Portfolio</h1>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 mb-3">
+                    <h1 class="text-center"><b>Projects</b></h1>
+                </div>
+                <div class="col-12 col-md-6 mb-3">
                     <div class="card mb-3">
                         <img src="./images/card-1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 mb-3">
                     <div class="card mb-3">
                         <img src="./images/card-2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 mb-3">
                     <div class="card mb-3">
                         <img src="./images/card-1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-3">
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card">
                         <img src="./images/card-2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
-    <!--Portfolio end-->
+    </section>
+    <!--Projects end-->
 
     <!--Contact start-->
-      <section id="contact" data-aos="zoom-out-down">
-        <div class="container-fluid">
-            <h1 class="text-center">Connect with me!!</h1>
+    <div id="contact" class="mt-3 mb-5"></div>
+    <section data-aos="zoom-out-down" class="pt-5 pb-5">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37025.89940652041!2d80.58016767007192!3d16.525683754475565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35efcf00bc4545%3A0x5bd4dcc4b1201fb0!2sBhavanipuram%2C%20V%20D%20Puram%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1686759225822!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-12 mb-3">
+                    <h1 class="text-center mb-3"><b>Connect with me!!</b></h1>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6 mb-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37025.89940652041!2d80.58016767007192!3d16.525683754475565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35efcf00bc4545%3A0x5bd4dcc4b1201fb0!2sBhavanipuram%2C%20V%20D%20Puram%2C%20Vijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1686759225822!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-12 col-lg-6">
                     <form>
                         <div class="mb-3">
-                            <label for="fullName" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="fullName" placeholder="Enter your Full Name">
+                            <label for="fullName" class="form-label fw-bold">Full Name</label>
+                            <input type="text" class="form-control border-black border-opacity-75" id="fullName"
+                                placeholder="Enter your Full Name">
                         </div>
                         <div class="mb-3">
-                            <label for="emailInput" class="form-label">Email ID</label>
-                            <input type="email" class="form-control" id="emailInput" placeholder="Enter your Email Address">
+                            <label for="emailInput" class="form-label fw-bold">Email ID</label>
+                            <input type="email" class="form-control border-black border-opacity-75" id="emailInput"
+                                placeholder="Enter your Email Address">
                         </div>
                         <div class="mb-3">
-                            <label for="teleInput" class="form-label">Contact Number</label>
-                            <input type="tel" class="form-control" id="teleInput" placeholder="Enter your Contact Number">
+                            <label for="teleInput" class="form-label fw-bold">Contact Number</label>
+                            <input type="tel" class="form-control border-black border-opacity-75" id="teleInput"
+                                placeholder="Enter your Contact Number">
                         </div>
                         <div class="mb-3">
-                            <label for="textArea" class="form-label">Enter your Query Here</label>
-                            <textarea class="form-control" id="textArea" rows="3" placeholder="Type your Query Here"></textarea>
+                            <label for="textArea" class="form-label fw-bold">Enter your Query Here</label>
+                            <textarea class="form-control border-black border-opacity-75" id="textArea" rows="3"
+                                placeholder="Type your Query Here"></textarea>
                         </div>
                         <div class="col-auto">
                             <button type="submit" class="btn btn-primary mb-3">Submit</button>
@@ -242,25 +398,44 @@
                 </div>
             </div>
         </div>
-      </section>
+    </section>
     <!--Contact end-->
 
     <!--Footer start-->
-      <footer id="footer">
+    <footer id="footer">
         <div class="container-fluid bg-dark py-2">
-            <div class="mt-4 text-center px-2">
-                <a href="https://www.facebook.com/iSrikanthKandi/"><i class="bi bi-facebook BIcon"></i></a>
-                <a href="https://twitter.com/iSrikanthKandi"><i class="bi bi-twitter BIcon"></i></a>
-                <a href="https://www.linkedin.com/in/srikanthkandi/"><i class="bi bi-linkedin BIcon"></i></a>
+            <div class="row d-flex flex-column justify-content-center align-items-center">
+                <div class="col-12 text-white footer-reference">
+                    <a href="https://linktr.ee/srikanthkandi/" target="_blank">Made with 💖 by <span id="gradientName">
+                            <b>Srikanth
+                                Kandi</b></span></a>
+                </div>
+                <div class="col-12 text-center px-2 d-flex flex-row align-items-center justify-content-center">
+                    <a href="https://linktr.ee/srikanthkandi/" target="_blank" class="text-white p-3"><i
+                            class="bi bi-link-45deg BIcon"></i></a>
+                    <a href="https://github.com/srikanth-kandi/" class="text-white p-3" target="_blank"><i
+                            class="bi bi-github BIcon"></i></a>
+                    <a href="https://twitter.com/iSrikanthKandi" class="twitter p-3" target="_blank"><i
+                            class="bi bi-twitter BIcon"></i></a>
+                    <a href="https://www.linkedin.com/in/srikanthkandi/" class="linkedin p-3" target="_blank">
+                        <i class="bi bi-linkedin BIcon"></i>
+                    </a>
+                </div>
+                <div class="col-12 text-white">
+                    <p class="text-center">&#169; 2023</p>
+                </div>
             </div>
         </div>
-      </footer>
+    </footer>
     <!--Footer end-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init()
     </script>
-  </body>
+</body>
+
 </html>
