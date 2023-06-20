@@ -11,29 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-.bannerBgImage {
-    height: 100vh;
-    background: url("https://srikanth-kandi.github.io/portfolio-bootstrap/images/bannerImage.jpg");
-    background-size: cover;
-}
-
-.bannerText {
-    text-align: right;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.bannerTitle {
-    font-size: 4rem;
-}
-
-.bannerDesc {
-    font-size: 2rem;
-}
-
 .card {
     cursor: pointer;
 }
