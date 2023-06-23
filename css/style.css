@@ -80,3 +80,25 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.companyLogo {
+    background-size: cover;
+    max-width: 140px;
+    border: 2px solid grey;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.companyHrLine {
+    border: 3px solid rgb(10, 10, 10);
+    border-radius: 50px;
+}
+
+.indoSyncLogo {
+    background-size: cover;
+    max-width: 300px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    padding: 3px;
+    box-sizing: border-box;
+}
