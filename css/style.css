@@ -47,6 +47,10 @@ body {
     .footer-reference a {
         font-size: 24px;
     }
+
+    #gradientName {
+        display: block;
+    }
 }
 
 .footer-reference a {
