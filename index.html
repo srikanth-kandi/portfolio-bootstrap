@@ -798,7 +798,8 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <form action="https://formsubmit.co/bdb4fe0af7a63d6c0edefd941dc2b613" method="POST">
+                    <form action="https://formsubmit.co/bdb4fe0af7a63d6c0edefd941dc2b613" method="POST"
+                        id="contactForm">
                         <input type="hidden" name="_subject" value="New submission from Portfolio!!">
                         <input type="hidden" name="_autoresponse"
                             value="Hi there!!,I'm Srikanth Kandi and I've received your response.">
@@ -829,7 +830,7 @@
                                 placeholder="Type your Query Here" required name="query"></textarea>
                         </div>
                         <div class="col-auto d-flex flex-row justify-content-center justify-content-lg-start">
-                            <button type="submit" class="btn btn-primary mb-3">Send Email to
+                            <button type="submit" class="btn btn-primary mb-3" onclick="storeEmail()">Send Email to
                                 <b>Srikanth</b> 😉</button>
                         </div>
                     </form>
@@ -873,6 +874,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init()
+    </script>
+    <script>
+        // Storing user's email in localStorage
+        function storeEmail() {
+            let userEmail = document.getElementById('contactForm').email.value;
+            localStorage.removeItem('userEmail');
+            localStorage.setItem('userEmail', userEmail);
+        }
     </script>
 </body>
 
