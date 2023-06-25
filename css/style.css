@@ -16,7 +16,7 @@ body {
 }
 
 .card:hover {
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(248, 248, 248);
     border: 2px solid black;
 }
 
@@ -32,8 +32,9 @@ body {
 }
 
 .card-img-top {
-    max-height: 300px;
+    max-height: 912px;
     background-size: cover;
+    border-bottom: 1px solid grey;
 }
 
 .footer-reference {
@@ -50,6 +51,9 @@ body {
 
     #gradientName {
         display: block;
+        background: linear-gradient(45deg, red, yellow, violet);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
 }
 
