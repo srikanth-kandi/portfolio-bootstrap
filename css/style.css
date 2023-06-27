@@ -40,7 +40,7 @@ body {
 }
 
 .passportPic {
-    width: 100%;
+    width: 90%;
     background-size: cover;
 }
 
@@ -54,10 +54,6 @@ body {
     max-height: 912px;
     background-size: cover;
     border-bottom: 1px solid grey;
-}
-
-.skill-card {
-    height: 450px;
 }
 
 .skill-card-img {
@@ -95,18 +91,27 @@ body {
     color: #0077B5;
 }
 
+.github::before {
+    color: #ffffff;
+    background-color: #211F1F;
+    border-radius: 50px;
+}
+
 .linkedin::before {
     background-color: #ffffff;
     border-radius: 30px;
     border: 0;
+    max-width: 40px;
 }
 
 .twitter {
     color: #00ACEE;
 }
 
-.carousel-inner {
-    max-height: 650px;
+@media (min-width: 992px) {
+    .h-lg-85 {
+        height: 85vh !important;
+    }
 }
 
 .carousel-control-prev-icon,
