@@ -991,15 +991,25 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init()
-    </script>
-    <script>
+        AOS.init();
+
         // Storing user's email in localStorage
         function storeEmail() {
             let userEmail = document.getElementById('contactForm').email.value;
             localStorage.removeItem('userEmail');
             localStorage.setItem('userEmail', userEmail);
         }
+
+        // Making navbar collapse after clicking on a link in mobile screen and not in desktop screen
+        const navLinks = document.querySelectorAll('.nav-item');
+        const menuToggle = document.getElementById('navbarNav');
+        const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => {
+                if (window.innerWidth < 992)
+                    bsCollapse.toggle();
+            });
+        });
     </script>
 </body>
 
